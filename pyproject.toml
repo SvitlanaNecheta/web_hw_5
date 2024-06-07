@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-hw-5"
+version = "0.1.0"
+description = ""
+authors = ["SvitlanaNecheta <sn15051973@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+faker = "^25.3.0"
+aiohttp = "^3.9.5"
+httpx = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
